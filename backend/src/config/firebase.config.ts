@@ -22,11 +22,22 @@ try {
     if (!fs.existsSync(resolvedPath)) {
         throw new Error(`Firebase service account file not found at path: ${resolvedPath}`);
     }
+    const serviceAccount = JSON.parse(
+      fs.readFileSync(resolvedPath, 'utf8')
+      ) as admin.ServiceAccount & { project_id?: string };
 
-    const serviceAccount = JSON.parse(fs.readFileSync(resolvedPath, 'utf8')) as admin.ServiceAccount;
-    const projectId = process.env.FIREBASE_PROJECT_ID || serviceAccount.project_id;
+    const projectId =
+    process.env.FIREBASE_PROJECT_ID ||
+    serviceAccount.projectId ||
+    serviceAccount.project_id;
+    console.log(
+    '[firebase-config]: using projectId =',
+    projectId
+);
+    
+ 
 
-    console.log('[firebase-config]: serviceAccount project_id =', serviceAccount.project_id);
+    
     console.log('[firebase-config]: using projectId =', projectId);
 
     if (!projectId) {
