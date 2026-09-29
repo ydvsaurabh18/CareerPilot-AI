@@ -1,10 +1,10 @@
 # CareerPilot AI 🚀
 
-<p align="center">
-  <a href="https://careerpilot-ai.vercel.app" target="_blank">
-    <img src="https://img.shields.io/badge/Live%20View-Click%20Here-brightgreen?style=for-the-badge&logo=vercel" alt="Live View"/>
-  </a>
-</p>
+AI-powered career assistant that helps users analyze resumes, build resumes, match jobs, and generate cover letters.
+
+🚀 **Live Demo:** [CareerPilot AI](https://career-pilot-ai-tdx1-hmnmsysax-saurabh-f3e1.vercel.app/)
+
+💻 **GitHub:** https://github.com/ydvsaurabh18/CareerPilot-AI
 
 ![Banner](public/screenshots/banner1.png)
 
