@@ -3,7 +3,9 @@
 AI-powered career assistant that helps users analyze resumes, build resumes, match jobs, and generate cover letters.
 
 🚀 **Live Demo:** [CareerPilot AI](https://career-pilot-ai-tdx1-hmnmsysax-saurabh-f3e1.vercel.app/)
-
+   **Frontend:** [CareerPilot AI](https://career-pilot-ai-tdx1-hmnmsax-saurabh-f3e1.vercel.app/)
+   **Backend API:** [CareerPilot AI Backend](https://careerpilot-ai-zh2o.onrender.com)
+   
 💻 **GitHub:** https://github.com/ydvsaurabh18/CareerPilot-AI
 
 ![Banner](public/screenshots/banner1.png)
